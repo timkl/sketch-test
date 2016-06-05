@@ -1,50 +1,50 @@
 .primary,
 .btn-primary {
-  background: #fd7823;
+  background: red;
 }
 .primary.dark,
 .btn-primary.dark {
-  background: #eb5d02;
+  background: #cc0000;
 }
 .primary.light,
 .btn-primary.light {
-  background: #fd9756;
+  background: #ff3333;
 }
 .primary.extra-light,
 .btn-primary.extra-light {
-  background: #fec6a1;
+  background: #ff8080;
 }
 .secondary {
-  background: #189f1b;
+  background: blue;
 }
 .secondary.dark {
-  background: #117313;
+  background: #0000cc;
 }
 .secondary.light {
-  background: #1fcb23;
+  background: #3333ff;
 }
 .secondary.extra-light {
-  background: #52e555;
+  background: #8080ff;
 }
 .btn-primary [name="BG"] {
-  background: #fd7823;
+  background: red;
 }
 .btn-secondary [name="BG"] {
   background: transparent;
-  border: 1px solid #fd7823;
+  border: 1px solid red;
 }
 .btns-secondary [type="text"] {
-  color: #fd7823;
+  color: red;
   font-weight: bold;
 }
 .illustration .line [name="Shape"],
 .illustration #line path {
-  background: #117313;
-  fill: #117313;
+  background: #0000cc;
+  fill: #0000cc;
 }
 .illustration .fill [name="Shape"],
 .illustration #fill path {
-  background: #52e555;
-  fill: #52e555;
+  background: #8080ff;
+  fill: #8080ff;
 }
 /*# sourceMappingURL=test.css.map */
