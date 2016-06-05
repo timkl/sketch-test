@@ -1,0 +1,50 @@
+.primary,
+.btn-primary {
+  background: #fd7823;
+}
+.primary.dark,
+.btn-primary.dark {
+  background: #eb5d02;
+}
+.primary.light,
+.btn-primary.light {
+  background: #fd9756;
+}
+.primary.extra-light,
+.btn-primary.extra-light {
+  background: #fec6a1;
+}
+.secondary {
+  background: #189f1b;
+}
+.secondary.dark {
+  background: #117313;
+}
+.secondary.light {
+  background: #1fcb23;
+}
+.secondary.extra-light {
+  background: #52e555;
+}
+.btn-primary [name="BG"] {
+  background: #fd7823;
+}
+.btn-secondary [name="BG"] {
+  background: transparent;
+  border: 1px solid #fd7823;
+}
+.btns-secondary [type="text"] {
+  color: #fd7823;
+  font-weight: bold;
+}
+.illustration .line [name="Shape"],
+.illustration #line path {
+  background: #117313;
+  fill: #117313;
+}
+.illustration .fill [name="Shape"],
+.illustration #fill path {
+  background: #52e555;
+  fill: #52e555;
+}
+/*# sourceMappingURL=test.css.map */

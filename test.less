@@ -1,0 +1,41 @@
+// Brand colors:
+@primary: #fd7823;
+@secondary: #189f1b;
+
+.primary, .btn-primary {
+  background: @primary;
+  &.dark {background: darken(@primary, 10%);}
+  &.light {background: lighten(@primary, 10%);}
+  &.extra-light {background: lighten(@primary, 25%);}
+}
+
+.secondary {
+  background: @secondary;
+  &.dark {background: darken(@secondary, 10%)}
+  &.light {background: lighten(@secondary, 10%);}
+  &.extra-light {background: lighten(@secondary, 25%);}
+}
+
+.btn-primary [name="BG"] {
+  background: @primary;
+}
+
+.btn-secondary [name="BG"]{
+  background: transparent;
+  border: 1px solid @primary;
+}
+
+.btns-secondary [type="text"]{
+  color: @primary;
+  font-weight: bold;
+}
+
+.illustration .line [name="Shape"], .illustration #line path {
+    background: darken(@secondary, 10%);
+    fill: darken(@secondary, 10%);
+}
+
+.illustration .fill [name="Shape"], .illustration #fill path {
+    background: lighten(@secondary, 25%);
+    fill: lighten(@secondary, 25%);
+}
